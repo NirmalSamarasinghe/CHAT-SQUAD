@@ -1,0 +1,8 @@
+.green_white {
+    -fx-background-color: linear-gradient(to bottom, #66ff99 0%, #9966ff 100%);
+}
+
+.green-bar {
+    -fx-accent: green
+
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="650.0" prefWidth="400.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.chat_application.controller.LoginWindowFromController">
+   <children>
+      <ImageView fitHeight="650.0" fitWidth="400.0" pickOnBounds="true">
+         <image>
+            <Image url="@img/8c98994518b575bfd8c949e91d20548b.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="130.0" layoutY="608.0" text="CHAT SQUAD">
+         <font>
+            <Font name="Leelawadee Bold" size="22.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgLogo" fitHeight="221.0" fitWidth="219.0" layoutX="92.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/logo.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtUser" layoutX="58.0" layoutY="389.0" prefHeight="31.0" prefWidth="284.0" />
+      <JFXButton buttonType="RAISED" layoutX="157.0" layoutY="440.0" onAction="#btnJoinOnAction" prefHeight="31.0" prefWidth="87.0" style="-fx-background-color: #ae1eff;" text="+ JOIN" textFill="WHITE">
+         <font>
+            <Font name="Leelawadee Bold" size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

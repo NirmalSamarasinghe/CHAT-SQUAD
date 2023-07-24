@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="root" prefHeight="650.0" prefWidth="400.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.chat_application.controller.ServerStartWindowFormController">
+   <children>
+      <ImageView fitHeight="650.0" fitWidth="400.0" pickOnBounds="true">
+         <image>
+            <Image url="@img/8c98994518b575bfd8c949e91d20548b.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="128.0" layoutY="608.0" text="WhisperWave" textFill="WHITE">
+         <font>
+            <Font name="Leelawadee Bold" size="22.0" />
+         </font>
+      </Label>
+      <Text layoutX="41.0" layoutY="483.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enjoy the new experence of chating with global friends" textAlignment="CENTER" wrappingWidth="320.9999971091747">
+         <font>
+            <Font name="Times New Roman Bold" size="27.0" />
+         </font>
+      </Text>
+      <Text fill="#9a9898" layoutX="65.0" layoutY="557.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Connect people arround the world !" wrappingWidth="272.5644511580467">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <JFXButton fx:id="btnLogin" buttonType="RAISED" focusTraversable="false" graphicTextGap="20.0" layoutX="119.0" layoutY="388.0" onAction="#btnLoginOnAction" prefHeight="39.0" prefWidth="164.0" style="-fx-background-color: #ae1eff; -fx-background-radius: 30px;" text="LOGIN" textFill="#dddddd">
+         <font>
+            <Font name="Leelawadee Bold" size="15.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/output-onlinegiftools.gif" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <ImageView fitHeight="224.0" fitWidth="227.0" layoutX="87.0" layoutY="118.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@img/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
